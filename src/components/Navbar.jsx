@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <a href=""><img src="https://cdn-icons-png.freepik.com/256/668/668618.png?ga=GA1.1.47276942.1743000520&semt=ais_hybrid" className='h-9' alt="" /></a>
+          <a href="/"><img src="https://cdn-icons-png.freepik.com/256/668/668618.png?ga=GA1.1.47276942.1743000520&semt=ais_hybrid" className='h-9' alt="" /></a>
           <div className="flex items-center gap-12">
             <NavLink className="block text-teal-600" to="/">
               <span className="sr-only">Home</span>
@@ -80,9 +80,7 @@ const Navbar = () => {
               )}
             </span>
 
-            <NavLink className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm" to="#">
-              Login
-            </NavLink>
+           
 
             {/* Mobile Menu Button */}
             <div className="block md:hidden">
